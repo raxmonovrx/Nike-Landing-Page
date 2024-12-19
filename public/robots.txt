@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /search
+
+# Sitemap
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
