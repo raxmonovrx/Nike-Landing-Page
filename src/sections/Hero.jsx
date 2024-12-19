@@ -29,6 +29,8 @@ const Hero = () => {
 				</p>
 				<Button label='Show Now' iconURL={arrowRight} />
 
+
+
 				<div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16 max-sm:gap-10  max-sm:mt-10'>
 					{statistics.map(stat => (
 						<div key={stat.label}>
@@ -69,3 +71,4 @@ const Hero = () => {
 }
 
 export default Hero
+
