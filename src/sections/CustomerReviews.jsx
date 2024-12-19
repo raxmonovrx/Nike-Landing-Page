@@ -5,7 +5,7 @@ import { reviews } from '../constants'
 const CustomerReviews = () => {
 	return (
 		<section className='max-container'>
-			<h3 className='font-palanquin text-center text-4xl font-bold'>
+			<h3 className='font-palanquin text-center text-4xl font-bold max-sm:text-[38px]'>
 				What Our
 				<span className='text-coral-red'> Customers </span>
 				Say?
