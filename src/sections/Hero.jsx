@@ -29,10 +29,10 @@ const Hero = () => {
 				</p>
 				<Button label='Show Now' iconURL={arrowRight} />
 
-				<div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16'>
+				<div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16 max-sm:gap-10 max-sm:justify-center'>
 					{statistics.map((stat, id) => (
 						<div key={id}>
-							<p className='text-4xl font-palanquin font-bold'>{stat.value}</p>
+							<p className='text-4xl font-palanquin font-bold max-sm:text-3xl'>{stat.value}</p>
 							<p className='leading-7 font-montserrat text-slate-gray'>
 								{stat.label}
 							</p>
