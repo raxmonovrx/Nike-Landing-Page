@@ -13,6 +13,10 @@
 	-webkit-tap-highlight-color: transparent;
 }
 
+*::selection {
+	background-color: transparent;
+}
+
 @layer components {
 	.max-container {
 		max-width: 1440px;
